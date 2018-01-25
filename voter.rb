@@ -44,7 +44,7 @@ class Voter
       return_string += "#{@@population[i].name} => #{@@population[i].bias}"
       i += 1
     end
-    return_string
+    return return_string
   end
 
 #Update the name or the bias of a voter who has already beed created
